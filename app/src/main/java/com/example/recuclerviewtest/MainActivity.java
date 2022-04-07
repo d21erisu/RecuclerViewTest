@@ -1,14 +1,24 @@
 package com.example.recuclerviewtest;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import java.util.Arrays;
+import java.util.List;
 
+public class MainActivity extends AppCompatActivity {
+    private RecyclerView recyclerView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        List<String> mountains = Arrays.asList("Kinnekulle", "Billingen" , "K2", "Kebnekaise", "Hunneberg", "Halleberg");
+
+
+        recyclerView = findViewById(R.id.recycler_view);
+
     }
 }
