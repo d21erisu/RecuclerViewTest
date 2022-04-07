@@ -5,6 +5,12 @@
     android:id="@+id/mountain_name"
     android:text="Mountain Name"
     android:textSize="40sp"
+    android:textStyle="italic"
+    android:textColor="@color/purple_500"
+    android:textAlignment="center"
+    android:textAllCaps="true"
+
+
     >
 
 </TextView>

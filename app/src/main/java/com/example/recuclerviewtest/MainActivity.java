@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        List<String> mountains = Arrays.asList("Kinnekulle", "Billingen" , "K2", "Kebnekaise", "Hunneberg", "Halleberg");
+        List<String> mountains = Arrays.asList("Kinnekulle", "Billingen" , "K2", "Kebnekaise", "Hunneberg", "Halleberg", "Eriksberg", "Karlsberg");
 
 
         recyclerView = findViewById(R.id.recycler_view);
